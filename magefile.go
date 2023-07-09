@@ -15,7 +15,7 @@ func Build() error {
 }
 
 func Install() error {
-	if err := sh.Run("go", "install", "./cmd/bulletinbird"); err != nil {
+	if err := sh.Run("go", "install", "./cmd/inky-botd"); err != nil {
 		return err
 	}
 
